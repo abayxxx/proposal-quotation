@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import OpenAI from "openai";
 import { errorResponse } from "@/app/api/generate/types";
 import { GoogleGenAI } from "@google/genai";
 

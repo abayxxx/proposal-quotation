@@ -1,6 +1,5 @@
 import { Document, Packer, Paragraph } from "docx";
 import { saveAs } from "file-saver";
-import { trimMd } from "./trimMd";
 
 const docxConverter = async (content: string, filename: string) => {
   // Convert result to DOCX

@@ -1,6 +1,13 @@
 import { Paragraph, TextRun, HeadingLevel } from "docx";
 import { marked } from "marked";
 
+type Token = {
+  type: string;
+  text?: string;
+  depth?: number;
+  items?: Token[];
+};
+
 // Convert a markdown string into structured docx Paragraphs
 export const markdownToDocxParagraphs = (markdown: string) => {
   const tokens = marked.lexer(markdown);
@@ -26,7 +33,7 @@ export const markdownToDocxParagraphs = (markdown: string) => {
         })
       );
     } else if (token.type === "list") {
-      token.items.forEach((item: any) => {
+      token.items.forEach((item: Token) => {
         docParagraphs.push(
           new Paragraph({
             text: item.text,
