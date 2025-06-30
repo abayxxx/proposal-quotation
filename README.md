@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📄 AI Proposal & Quotation Generator
 
-## Getting Started
+An AI-powered tool to help freelancers, consultants, and agencies generate beautiful, professional **proposals and quotations** — instantly.
 
-First, run the development server:
+Powered by **Next.js**, **OpenAI**, and **Tailwind CSS**, this app saves time and helps you close more deals 💼⚡
+
+---
+
+## ✨ Features
+
+- 🧠 Generate proposal content using AI (OpenAI GPT)
+- 📑 Download and copy proposal text or quotation output
+- 📊 Auto-generate service breakdown and pricing sections
+- 💾 Save proposals locally (or integrate with Supabase later)
+- 📱 Fully responsive and optimized for mobile
+- 🎨 Beautiful UI with ShadCN + Tailwind
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech                                          | Description                            |
+| --------------------------------------------- | -------------------------------------- |
+| [Next.js](https://nextjs.org)                 | React framework for fullstack web apps |
+| [GeminiAI API](https://platform.openai.com)   | Generate smart content using Gemini    |
+| [Tailwind CSS](https://tailwindcss.com)       | Utility-first CSS for styling          |
+| [ShadCN UI](https://ui.shadcn.com)            | Beautiful component system             |
+| [TypeScript](https://www.typescriptlang.org/) | Type safety and dev tooling            |
+
+---
+
+## 🧪 Coming Soon
+
+- 🗃️ Save and manage proposals via Supabase
+- 🧾 PDF Export for downloadable quotes
+- 🧠 Prompt tuning + reusable templates
+- 💬 Client form share & auto-fill
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/abayxxx/proposal-quotation.git
+cd proposal-quotation
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Create `.env.local` File
+
+```env
+OPENAI_API_KEY=your-openai-key
+```
+
+### 4. Run the Dev Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖼️ Screenshots
 
-## Learn More
+> Coming soon: attach screenshots of form, proposal output, and dark mode view.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+MIT License — free to use, improve, and share.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Credits
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Created by [@abayxxx](https://github.com/abayxxx)  
+Inspired by years of client pitching & deck-making 😅
