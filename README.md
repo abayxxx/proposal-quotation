@@ -8,7 +8,7 @@ Powered by **Next.js**, **OpenAI**, and **Tailwind CSS**, this app saves time an
 
 ## ✨ Features
 
-- 🧠 Generate proposal content using AI (OpenAI GPT)
+- 🧠 Generate proposal content using AI (Gemini AI)
 - 📑 Download and copy proposal text or quotation output
 - 📊 Auto-generate service breakdown and pricing sections
 - 💾 Save proposals locally (or integrate with Supabase later)
