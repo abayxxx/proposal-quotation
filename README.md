@@ -56,7 +56,7 @@ npm install
 ### 3. Create `.env.local` File
 
 ```env
-OPENAI_API_KEY=your-openai-key
+GEMINI_API_KEY=your-geminiai-key
 ```
 
 ### 4. Run the Dev Server
